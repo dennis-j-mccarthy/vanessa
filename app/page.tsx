@@ -56,7 +56,7 @@ export default function HomePage() {
     <>
       <section className="relative h-[92vh] min-h-[640px] w-full overflow-hidden -mt-20">
         <Image
-          src="/images/pexels-photo-1024960.jpg"
+          src="/images/pexels-photo-320007.jpg"
           alt="Soft natural light through trees"
           fill
           priority
