@@ -14,7 +14,7 @@ export function PageHero({
   imageAlt: string;
 }) {
   return (
-    <section className="relative h-[58vh] min-h-[420px] w-full overflow-hidden">
+    <section className="relative h-[68vh] min-h-[500px] w-full overflow-hidden -mt-20">
       <Image
         src={image}
         alt={imageAlt}
@@ -24,6 +24,10 @@ export function PageHero({
         className="object-cover"
       />
       <div className="absolute inset-0 hero-overlay" />
+      <div
+        aria-hidden
+        className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-black/55 to-transparent"
+      />
       <div className="relative z-10 h-full flex items-end">
         <div className="mx-auto max-w-7xl w-full px-6 lg:px-10 pb-14 lg:pb-20 fade-in-up">
           {eyebrow && (

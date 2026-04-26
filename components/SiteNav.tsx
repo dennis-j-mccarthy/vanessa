@@ -26,8 +26,17 @@ export function SiteNav() {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Pages where the hero image sits behind the (transparent) nav.
-  const overHero = !scrolled && !open;
+  // Only these pages have a full-bleed dark hero that extends behind the nav.
+  const DARK_HERO_PAGES = new Set([
+    "/",
+    "/contact",
+    "/one-to-one-therapy",
+    "/marriage-counseling",
+    "/life-coaching",
+    "/integrated-spirituality",
+  ]);
+  const onDarkHeroPage = DARK_HERO_PAGES.has(pathname);
+  const overHero = onDarkHeroPage && !scrolled && !open;
 
   const wordmarkColor = overHero
     ? "text-white hover:text-white/80"

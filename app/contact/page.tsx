@@ -21,6 +21,10 @@ export default function ContactPage() {
           className="object-cover"
         />
         <div className="absolute inset-0 hero-overlay" />
+        <div
+          aria-hidden
+          className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-black/55 to-transparent"
+        />
         <div className="relative z-10 h-full flex items-end">
           <div className="mx-auto max-w-7xl w-full px-6 lg:px-10 pb-14 lg:pb-20 fade-in-up">
             <p className="text-xs uppercase tracking-[0.4em] text-white/80 mb-4">
