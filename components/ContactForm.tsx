@@ -17,13 +17,23 @@ export function ContactForm() {
     e.preventDefault();
     const form = e.currentTarget;
     const data = new FormData(form);
-    const name = encodeURIComponent(String(data.get("name") || ""));
-    const service = encodeURIComponent(String(data.get("service") || ""));
-    const message = encodeURIComponent(String(data.get("message") || ""));
+    const name = String(data.get("name") || "");
+    const email = String(data.get("email") || "");
     const phone = String(data.get("phone") || "");
-    const subject = `Consultation request — ${decodeURIComponent(service) || "general"}`;
-    const body = `Hi Vanessa,%0D%0A%0D%0AMy name is ${name}.%0D%0APhone: ${phone}%0D%0AService of interest: ${service}%0D%0A%0D%0A${message}`;
-    window.location.href = `mailto:?subject=${encodeURIComponent(subject)}&body=${body}`;
+    const service = String(data.get("service") || "");
+    const message = String(data.get("message") || "");
+    const subject = `Consultation request — ${service || "general"}`;
+    const body = [
+      `Hi Vanessa,`,
+      ``,
+      `My name is ${name}.`,
+      `Email: ${email}`,
+      `Phone: ${phone}`,
+      `Service of interest: ${service}`,
+      ``,
+      message,
+    ].join("\r\n");
+    window.location.href = `mailto:drvgraf@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     setSubmitted(true);
   }
 
