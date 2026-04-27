@@ -14,7 +14,7 @@ export function PageHero({
   imageAlt: string;
 }) {
   return (
-    <section className="relative h-[68vh] min-h-[500px] w-full overflow-hidden -mt-20">
+    <section className="relative h-[68vh] min-h-[500px] max-h-[700px] w-full overflow-hidden -mt-20">
       <Image
         src={image}
         alt={imageAlt}

@@ -54,7 +54,7 @@ const steps = [
 export default function HomePage() {
   return (
     <>
-      <section className="relative h-[92vh] min-h-[640px] w-full overflow-hidden -mt-20">
+      <section className="relative h-[92vh] min-h-[640px] max-h-[700px] w-full overflow-hidden -mt-20">
         <Image
           src="/images/pexels-photo-320007.jpg"
           alt="Soft natural light through trees"

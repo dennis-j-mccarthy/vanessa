@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
-      <section className="relative h-[58vh] min-h-[420px] w-full overflow-hidden -mt-20">
+      <section className="relative h-[58vh] min-h-[420px] max-h-[700px] w-full overflow-hidden -mt-20">
         <Image
           src="/images/pexels-photo-1261728.jpg"
           alt="Open horizon"
