@@ -12,6 +12,7 @@
   --clay: #b3624b;
   --clay-deep: #8e4a36;
   --gold: #c8a35a;
+  --cream: #F3EDE2;
 }
 
 @theme inline {
@@ -27,6 +28,7 @@
   --color-clay: var(--clay);
   --color-clay-deep: var(--clay-deep);
   --color-gold: var(--gold);
+  --color-cream: var(--cream);
   --font-sans: var(--font-inter);
   --font-serif: var(--font-cormorant);
 }

@@ -42,7 +42,7 @@ const steps = [
   {
     n: "02",
     title: "Let's connect",
-    body: "Reach out for a free consultation. We'll talk through what brought you here.",
+    body: "Reach out to set up a consultation. We'll talk through what brought you here.",
   },
   {
     n: "03",

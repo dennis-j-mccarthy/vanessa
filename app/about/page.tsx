@@ -236,7 +236,7 @@ export default function AboutPage() {
 
       <CallToAction
         title="Let's see if we're a fit."
-        body="Schedule a free consultation to decide which service can best benefit you and change your life."
+        body="Schedule a consultation to decide which service can best benefit you and change your life."
       />
     </>
   );

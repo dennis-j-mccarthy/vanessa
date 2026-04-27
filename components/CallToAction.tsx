@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export function CallToAction({
   title = "Begin the conversation",
-  body = "Schedule a free consultation to find the service that best fits where you are — and where you want to go.",
+  body = "Schedule a consultation to find the service that best fits where you are — and where you want to go.",
 }: {
   title?: string;
   body?: string;
@@ -27,7 +27,7 @@ export function CallToAction({
           <div className="mt-9 flex flex-wrap justify-center gap-3">
             <Link
               href="/contact"
-              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-white text-sage-deep text-sm font-medium hover:bg-[#f3ede2] transition-colors"
+              className="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-white text-sage-deep text-sm font-medium hover:bg-cream transition-colors"
             >
               Book a Consultation
             </Link>

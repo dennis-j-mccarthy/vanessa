@@ -75,7 +75,7 @@ export function SiteFooter() {
                 href="/contact"
                 className="link-underline text-clay"
               >
-                Schedule a free consultation
+                Schedule a consultation
               </Link>
             </li>
           </ul>

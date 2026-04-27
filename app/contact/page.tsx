@@ -5,7 +5,7 @@ import { ContactForm } from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Schedule a free consultation with Vanessa Graf, PsyD, LMFT, to discuss which service best fits your goals.",
+    "Schedule a consultation with Vanessa Graf, PsyD, LMFT, to discuss which service best fits your goals.",
 };
 
 export default function ContactPage() {
@@ -34,7 +34,7 @@ export default function ContactPage() {
               Let&apos;s get started.
             </h1>
             <p className="mt-6 text-white/85 text-lg max-w-xl leading-relaxed">
-              Schedule a free consultation to discuss which service best suits
+              Schedule a consultation to discuss which service best suits
               your personal goals.
             </p>
           </div>
