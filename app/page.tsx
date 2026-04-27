@@ -54,7 +54,7 @@ const steps = [
 export default function HomePage() {
   return (
     <>
-      <section className="relative h-[92vh] min-h-[640px] max-h-[700px] w-full overflow-hidden -mt-20">
+      <section className="relative h-[80vh] min-h-[560px] max-h-[700px] w-full overflow-hidden">
         <Image
           src="/images/pexels-photo-320007.jpg"
           alt="Soft natural light through trees"
@@ -63,13 +63,9 @@ export default function HomePage() {
           sizes="100vw"
           className="object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/30 to-black/55" />
-        <div
-          aria-hidden
-          className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-black/55 to-transparent"
-        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/30 to-black/55" />
         <div className="relative z-10 h-full flex items-center">
-          <div className="mx-auto max-w-7xl w-full px-6 lg:px-10 pt-20 fade-in-up">
+          <div className="mx-auto max-w-7xl w-full px-6 lg:px-10 fade-in-up">
             <p className="text-xs uppercase tracking-[0.4em] text-white/80 mb-6">
               Vanessa Graf — PsyD, LMFT, PC
             </p>
