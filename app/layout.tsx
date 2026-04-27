@@ -19,14 +19,14 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   title: {
-    default: "Vanessa Graf, PsyD, LMFT — Colorado Springs Therapy",
+    default: "Vanessa Graf, PsyD, LMFT — Therapy in California & Colorado",
     template: "%s | Vanessa Graf",
   },
   description:
     "Vanessa Graf, PsyD, LMFT — over 25 years guiding people toward renewal through psychotherapy, marriage counseling, life coaching, and integrated spirituality.",
   metadataBase: new URL("https://vanessagraf.com"),
   openGraph: {
-    title: "Vanessa Graf, PsyD, LMFT — Colorado Springs Therapy",
+    title: "Vanessa Graf, PsyD, LMFT — Therapy in California & Colorado",
     description:
       "Psychotherapy, marriage counseling, life coaching, and integrated spirituality with Vanessa Graf, PsyD, LMFT.",
     type: "website",
