@@ -99,7 +99,7 @@ export default function HomePage() {
         <div className="lg:col-span-5">
           <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
             <Image
-              src="/images/Vanessa-Sm-3-topaz-face-upscale-4x.jpg"
+              src="/images/vanessa.png"
               alt="Vanessa Graf, PsyD, LMFT"
               fill
               sizes="(min-width: 1024px) 40vw, 90vw"

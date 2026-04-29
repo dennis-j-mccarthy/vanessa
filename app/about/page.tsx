@@ -70,7 +70,7 @@ export default function AboutPage() {
           <div className="lg:col-span-7 order-1 lg:order-2">
             <div className="relative aspect-[4/5] lg:aspect-[5/6] rounded-2xl overflow-hidden">
               <Image
-                src="/images/Vanessa-Sm-3-topaz-face-upscale-4x.jpg"
+                src="/images/vanessa.png"
                 alt="Vanessa Graf"
                 fill
                 priority
